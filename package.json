@@ -1,0 +1,24 @@
+{
+    "name": "@vanyamate/fetch-with-interceptors",
+    "version": "0.0.1",
+    "description": "Fetch with interceptors",
+    "main": "index.ts",
+    "types": "./index.d.ts",
+    "scripts": {
+        "g:type": "tsc index.ts --declaration --emitDeclarationOnly --lib ES2021,dom"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VanyaMate/fetch-with-interceptors.git"
+    },
+    "keywords": [
+        "fetch",
+        "interceptors"
+    ],
+    "author": "Vanya Mate",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VanyaMate/fetch-with-interceptors/issues"
+    },
+    "homepage": "https://github.com/VanyaMate/fetch-with-interceptors#readme"
+}
