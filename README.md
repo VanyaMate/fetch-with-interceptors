@@ -1,6 +1,15 @@
 # Fetch with interceptors
 
+```
+npm i @vanyamate/fetch-with-interceptors
+```
+
+```typescript
+export { createFetchWithInterceptors } from '@vanyamate/fetch-with-interceptors'; 
+```
+
 Example:
+
 ```typescript
 // Request interceptors
 export const addBaseUrlInterceptor = (baseUrl: string): RequestInterceptor => async function (url, init) {
@@ -58,6 +67,7 @@ export const returnResponseJsonInterceptor: ResponseInterceptor = async (respons
 ```
 
 Usage:
+
 ```typescript
 export const api = createFetchWithInterceptors([
     addBaseUrlInterceptor(`${ __API__ }/v1/`),
